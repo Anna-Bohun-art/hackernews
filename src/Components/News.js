@@ -14,6 +14,7 @@ export default function News({ articles }) {
               >
                 {article.title}
               </h1>
+              <hr />
               <p>
                 Article by {article.author} | Created at {article.created_at} |
                 Number of comments {article.num_comments}
